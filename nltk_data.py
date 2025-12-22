@@ -1,0 +1,8 @@
+import nltk
+
+# Download all necessary data (first time only)
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
